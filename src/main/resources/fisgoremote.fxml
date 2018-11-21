@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="605.0" fitWidth="451.0">
+         <image>
+            <Image url="@cashbox.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton id="backButton" fx:id="backButton" layoutX="50.0" layoutY="269.0" prefHeight="47.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="downButton" layoutX="172.0" layoutY="269.0" prefHeight="47.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="upButton" layoutX="233.0" layoutY="269.0" prefHeight="47.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="menuButton" layoutX="292.0" layoutY="269.0" prefHeight="46.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="sevenButton" layoutX="51.0" layoutY="332.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="eightButton" layoutX="111.0" layoutY="333.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="nineButton" layoutX="171.0" layoutY="333.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="reversalButton" layoutX="233.0" layoutY="333.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="goodsButton" layoutX="292.0" layoutY="333.0" prefHeight="48.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="cardButton" layoutX="292.0" layoutY="396.0" prefHeight="48.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="cashButton" layoutX="292.0" layoutY="460.0" prefHeight="48.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="enterButton" layoutX="293.0" layoutY="525.0" prefHeight="48.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="zeroButton" layoutX="51.0" layoutY="525.0" prefHeight="48.0" prefWidth="107.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="fourButton" layoutX="51.0" layoutY="396.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="fiveButton" layoutX="111.0" layoutY="397.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="sixButton" layoutX="171.0" layoutY="397.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="plusButton" layoutX="232.0" layoutY="396.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="oneButton" layoutX="50.0" layoutY="461.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="twoButton" layoutX="111.0" layoutY="461.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="threeButton" layoutX="172.0" layoutY="461.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="minusButton" layoutX="233.0" layoutY="461.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="commaButton" layoutX="172.0" layoutY="526.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+      <JFXButton fx:id="quantityButton" layoutX="233.0" layoutY="525.0" prefHeight="48.0" prefWidth="47.0" ripplerFill="WHITE" text=" " />
+   </children>
+</AnchorPane>
